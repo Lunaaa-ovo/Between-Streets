@@ -212,3 +212,6 @@ footer.quiet-footer{display:grid;grid-template-columns:minmax(0,330px) 180px;jus
 @media(min-width:701px) and (max-width:1000px){.food-slide.photo-food-slide{grid-template-columns:60% 40%}.photo-food-slide .slide-copy{padding:9px}.photo-food-slide .slide-copy h3{font-size:14px}.photo-food-slide .slide-copy p{font-size:10px}.photo-food-slide .slide-copy small{font-size:8px}}
 @media(max-width:700px){.food-slide.photo-food-slide{grid-template-columns:61% 39%}.photo-food-slide .slide-copy{padding:9px}.photo-food-slide .slide-copy h3{font-size:14px}.photo-food-slide .slide-copy p{font-size:10px}.photo-food-slide .slide-copy>span{font-size:6px;letter-spacing:.4px}.photo-food-slide .slide-copy small{font-size:8px}}
 .pixel-gallery img{object-position:center 38%}
+
+/* Isolated sticker assets retain transparent safety padding at every edge. */
+.pixel-fragment>img{display:block;width:100%;height:100%;object-fit:contain;pointer-events:none;image-rendering:pixelated}
